@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WROSEModelStoreContainer" CdmEntityContainer="WROSEDBEntities">
+    <EntitySetMapping Name="Category_Master">
+      <EntityTypeMapping TypeName="WROSEModel.Category_Master">
+        <MappingFragment StoreEntitySet="Category_Master">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Category_Name" ColumnName="Category_Name" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Municipality_Master">
+      <EntityTypeMapping TypeName="WROSEModel.Municipality_Master">
+        <MappingFragment StoreEntitySet="Municipality_Master">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Municipality_Name" ColumnName="Municipality_Name" />
+          <ScalarProperty Name="Provience_Master_ID" ColumnName="Provience_Master_ID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Project_Details">
+      <EntityTypeMapping TypeName="WROSEModel.Project_Details">
+        <MappingFragment StoreEntitySet="Project_Details">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Project_Name" ColumnName="Project_Name" />
+          <ScalarProperty Name="Study_Year" ColumnName="Study_Year" />
+          <ScalarProperty Name="Client_Name" ColumnName="Client_Name" />
+          <ScalarProperty Name="Author_Name" ColumnName="Author_Name" />
+          <ScalarProperty Name="Author_company" ColumnName="Author_company" />
+          <ScalarProperty Name="Local_Auth_Study" ColumnName="Local_Auth_Study" />
+          <ScalarProperty Name="Project_Desc" ColumnName="Project_Desc" />
+          <ScalarProperty Name="Stusy_Purpose" ColumnName="Stusy_Purpose" />
+          <ScalarProperty Name="Key_Assumption" ColumnName="Key_Assumption" />
+          <ScalarProperty Name="Study_Limitation" ColumnName="Study_Limitation" />
+          <ScalarProperty Name="User_Reg_ID" ColumnName="User_Reg_ID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Provience_Master">
+      <EntityTypeMapping TypeName="WROSEModel.Provience_Master">
+        <MappingFragment StoreEntitySet="Provience_Master">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Provience_Name" ColumnName="Provience_Name" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Scenario_Details">
+      <EntityTypeMapping TypeName="WROSEModel.Scenario_Details">
+        <MappingFragment StoreEntitySet="Scenario_Details">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Project_ID" ColumnName="Project_ID" />
+          <ScalarProperty Name="Scenario_Name" ColumnName="Scenario_Name" />
+          <ScalarProperty Name="Waste_Tech_ID" ColumnName="Waste_Tech_ID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created_By" />
+          <ScalarProperty Name="Modified_By" ColumnName="Modified_By" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Permission_Master">
+      <EntityTypeMapping TypeName="WROSEModel.User_Permission_Master">
+        <MappingFragment StoreEntitySet="User_Permission_Master">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Permimssion_Name" ColumnName="Permimssion_Name" />
+          <ScalarProperty Name="page_URL" ColumnName="page_URL" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Registration">
+      <EntityTypeMapping TypeName="WROSEModel.User_Registration">
+        <MappingFragment StoreEntitySet="User_Registration">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="User_Email" ColumnName="User_Email" />
+          <ScalarProperty Name="User_Mobile" ColumnName="User_Mobile" />
+          <ScalarProperty Name="User_Password" ColumnName="User_Password" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="User_Role_ID" ColumnName="User_Role_ID" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Role_Master">
+      <EntityTypeMapping TypeName="WROSEModel.User_Role_Master">
+        <MappingFragment StoreEntitySet="User_Role_Master">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Role_Name" ColumnName="Role_Name" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Role_Permission">
+      <EntityTypeMapping TypeName="WROSEModel.User_Role_Permission">
+        <MappingFragment StoreEntitySet="User_Role_Permission">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="User_Role_ID" ColumnName="User_Role_ID" />
+          <ScalarProperty Name="User_Permission_ID" ColumnName="User_Permission_ID" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Waste_Mat_Details">
+      <EntityTypeMapping TypeName="WROSEModel.Waste_Mat_Details">
+        <MappingFragment StoreEntitySet="Waste_Mat_Details">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Project_ID" ColumnName="Project_ID" />
+          <ScalarProperty Name="Waste_Mat_ID" ColumnName="Waste_Mat_ID" />
+          <ScalarProperty Name="Waste_Mat_Amt" ColumnName="Waste_Mat_Amt" />
+          <ScalarProperty Name="Waste_mat_Percentage" ColumnName="Waste_mat_Percentage" />
+          <ScalarProperty Name="Total_Waste_Amt" ColumnName="Total_Waste_Amt" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created_By" />
+          <ScalarProperty Name="Modified_By" ColumnName="Modified_By" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Waste_Mat_Master">
+      <EntityTypeMapping TypeName="WROSEModel.Waste_Mat_Master">
+        <MappingFragment StoreEntitySet="Waste_Mat_Master">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Waste_Mat_Name" ColumnName="Waste_Mat_Name" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Waste_tech_Master">
+      <EntityTypeMapping TypeName="WROSEModel.Waste_tech_Master">
+        <MappingFragment StoreEntitySet="Waste_tech_Master">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Waste_Tech_Name" ColumnName="Waste_Tech_Name" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+          <ScalarProperty Name="Category_Master_ID" ColumnName="Category_Master_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
